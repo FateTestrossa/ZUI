@@ -1,0 +1,60 @@
+@import './color.scss';
+@import './var.scss';
+
+:root {
+  --zui-primary1: #e6f7ff;
+  --zui-primary2: #bde9ff;
+  --zui-primary3: #94d8ff;
+  --zui-primary4: #6bc4ff;
+  --zui-primary5: #42adff;
+  --zui-primary6: #1a91f9;
+  --zui-primary7: #0b6fd4;
+  --zui-primary8: #0051ad;
+  --zui-primary9: #003b87;
+  --zui-primary10: #002761;
+  --waveColor: #1a91f9;
+  --shadowColor: #1a91f94d;
+  --buttonNormalHoverColor: #1a91f91a;
+
+  --zui-common-title: #3a3b3c;
+  --zui-common-content: #6a6b6c;
+  --zui-common-close-button: #aaabac;
+  --zui-common-close-button-hover: rgb(102, 103, 103);
+
+  --zui-button-color: #fff;
+  --zui-button-normal-bg: #fff;
+  --zui-button-normal-border: #e6e7e8;
+  --zui-button-normal-color: #2a2b2c;
+  --zui-button-disabled-bg: #c6c7c8;
+  --zui-button-disabled-color: #fff;
+  --zui-button-disabled-hollow-bg: #f6f7f8;
+  --zui-button-disabled-hollow-border: #e6e7e8;
+  --zui-button-disabled-hollow-color: #8a8b8c;
+  --zui-button-loading: #fff;
+  --zui-button-loading-hollow: #2a2b2c;
+
+  --zui-modal-border: #e6e7e8;
+  --zui-modal-bg: #fff;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
