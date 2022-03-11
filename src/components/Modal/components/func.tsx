@@ -115,6 +115,7 @@ const renderFun = (config: ModalInfoArg | ModalConfirmArg, type: 'info' | 'confi
     render(currentConfig)
   }
 
+  // 将创建的modal插入创建出来的div中，参数是modal的配置
   function render(props: ModalInfoArg | ModalConfirmArg) {
     ReactDOM.render(
       type === 'info' ? <InfoModal {...(props as ModalInfoArg)} /> : <ConfirmModal {...(props as ModalConfirmArg)} />,
